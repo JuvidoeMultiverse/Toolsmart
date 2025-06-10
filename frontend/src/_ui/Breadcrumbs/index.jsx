@@ -19,7 +19,7 @@ export const Breadcrumbs = ({ darkMode, dataCy }) => {
             <div key={breadcrumb.key} className="tj-dashboard-header-title-wrap" data-cy={dataCy ?? ''}>
               <p className=" tj-text-xsm ">{breadcrumb}</p>
               {sidebarNav?.length > 0 && <SolidIcon name="cheveronright" fill={darkMode ? '#FDFDFE' : '#131620'} />}
-              <li className="breadcrumb-item font-weight-500" data-cy="breadcrumb-page-title">
+              <li className="breadcrumb-item font-weight-500 text-slate-12" data-cy="breadcrumb-page-title">
                 {' '}
                 {sidebarNav && decodeEntities(sidebarNav)}
               </li>

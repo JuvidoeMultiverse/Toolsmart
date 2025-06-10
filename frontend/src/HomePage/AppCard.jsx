@@ -196,7 +196,7 @@ export default function AppCard({
   }
 
   return (
-    <div className="homepage-app-card" ref={cardRef}>
+    <div className="card homepage-app-card card--clickable" ref={cardRef}>
       <div key={app?.id} ref={hoverRef} data-cy={`${app?.name.toLowerCase().replace(/\s+/g, '-')}-card`}>
         <div className="row home-app-card-header">
           <div className="col-12 d-flex justify-content-between">

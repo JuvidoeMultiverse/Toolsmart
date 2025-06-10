@@ -1318,14 +1318,11 @@ class HomePageComponent extends React.Component {
                 {(meta?.total_count > 0 || appSearchKey) && (
                   <>
                     {!(isLoading && !appSearchKey) && (
-                      <>
-                        <HomeHeader
-                          onSearchSubmit={this.onSearchSubmit}
-                          darkMode={this.props.darkMode}
-                          appType={this.props.appType}
-                        />
-                        <div className="liner"></div>
-                      </>
+                      <HomeHeader
+                        onSearchSubmit={this.onSearchSubmit}
+                        darkMode={this.props.darkMode}
+                        appType={this.props.appType}
+                      />
                     )}
                     <div className="filter-container">
                       <span>{currentFolder?.count ?? meta?.total_count} APPS</span>
