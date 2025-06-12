@@ -8,13 +8,13 @@
 
         .body-wrapper {
             min-height: 620px;
-            border: 1px solid var(--slate5);
+            border: 1px solid var(--border-weak);
         }
 
         .license-page-sidebar {
             max-width: 220px;
-            background-color: var(--base);
-            border-right: 1px solid var(--slate5) !important;
+            background-color: var(--surfaces-surface-01);
+            border-right: 1px solid var(--border-weak) !important;
             display: grid !important;
             grid-template-rows: auto 1fr auto !important;
 
@@ -28,7 +28,7 @@
         }
 
         .license-content-wrapper {
-            background-color: var(--base);
+            background-color: var(--surfaces-surface-01);
 
             .metrics-wrapper {
                 padding: 40px;
@@ -130,10 +130,10 @@
             .license-header-wrap {
                 display: flex;
                 justify-content: space-between;
-                padding-right: 40px;
+                padding: 24px 40px 16px;
                 align-items: center;
                 height: unset !important;
-                background-color: var(--base);
+                background-color: var(--surfaces-surface-01);
 
                 .status-container {
                     border-radius: 20px;
@@ -429,7 +429,7 @@
 }
 
 .license-error-modal {
-    background-color: var(--base);
+    background-color: var(--surfaces-surface-01);
 
     .modal-header {
         background-color: var(--slate3) !important;
