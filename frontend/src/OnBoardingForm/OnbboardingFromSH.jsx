@@ -97,7 +97,7 @@ function OnbboardingFromSH({ darkMode }) {
     'Enter your phone number',
     'Enter your phone number', //dummy placeholder
   ];
-  const FormSubTitles = ['This information will help us improve ToolJet.'];
+  const FormSubTitles = ['This information will help us improve ToolSmart.'];
 
   const handleRetry = () => {
     setIsLoading(true);

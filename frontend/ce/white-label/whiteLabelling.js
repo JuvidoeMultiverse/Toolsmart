@@ -1,9 +1,9 @@
 import { decodeEntities } from '@/_helpers/utils';
 
 export const defaultWhiteLabellingSettings = {
-  WHITE_LABEL_LOGO: 'assets/images/rocket.svg',
-  WHITE_LABEL_TEXT: 'ToolJet',
-  WHITE_LABEL_FAVICON: 'assets/images/logo.svg',
+  WHITE_LABEL_LOGO: 'assets/images/968c8bf7-51f3-4f8f-9677-612ee3cb9d3b.png',
+  WHITE_LABEL_TEXT: 'ToolSmart',
+  WHITE_LABEL_FAVICON: 'assets/images/968c8bf7-51f3-4f8f-9677-612ee3cb9d3b.png',
 };
 
 export const whiteLabellingOptions = {

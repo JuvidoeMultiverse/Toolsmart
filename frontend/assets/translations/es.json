@@ -45,74 +45,79 @@
     "viewer": "¡Lo sentimos!. Esta aplicación está bajo mantenimiento.",
     "app": {
         "updateAvailable": "Actualización disponible",
-        "newVersionReleased": "Una nueva versión de Tooljet ha sido lanzada.",
-        "readReleaseNotes": "Leer las notas del lanzamiento y actualizar.",
-        "skipVersion": "Saltar esta versión."
+        "newVersionReleased": "Una nueva versión de ToolSmart ha sido lanzada.",
+        "readReleaseNotes": "Leer notas de lanzamiento y actualizar",
+        "skipVersion": "Omitir esta versión"
     },
-    "stripe": "Por favor espere mientras cargamos la especificación de OpenAPI para Stripe",
+    "stripe": "Por favor espere mientras cargamos la especificación OpenAPI para Stripe.",
     "openApi": {
-        "noValidOpenApi": "Una especificación válida de OpenAPI no está disponible.",
+        "noValidOpenApi": "¡Especificación OpenAPI válida no disponible!.",
         "selectHost": "Seleccione un host",
-        "selectOperation": "Selecciona una operación"
+        "selectOperation": "Seleccione una operación"
     },
     "slack": {
         "authorize": "Autorizar",
-        "connectToolJetToSlack": "ToolJet puede conectarse a Slack, listar usuarios, enviar mensajes, etc. Por favor seleccione los permisos apropiados.",
-        "chatWrite": "chat:escribir",
-        "listUsersAndSendMessage": "Tu aplicación de Tooljet será capaz de listar usuarios y enviar mensajes a ellos y a los canales.",
+        "connectToolJetToSlack": "ToolSmart puede conectarse a Slack, listar usuarios, enviar mensajes, etc. Por favor seleccione los permisos apropiados.",
+        "chatWrite": "chat:write",
+        "listUsersAndSendMessage": "Tu aplicación de ToolSmart será capaz de listar usuarios y enviar mensajes a ellos y a los canales.",
         "connectSlack": "Conectar a Slack"
     },
     "googleSheets": {
         "readOnly": "Solo lectura",
-        "enableReadAndWrite": "Si deseas que ToolJet pueda modificar tus hojas de Google Sheet, asegurate de seleccionar permisos de lectura y escritura.",
-        "readDataFromSheets": "Tus aplicaciones de ToolJet sólo pueden leer datos de tus hojas de Google Sheets.",
-        "readWrite": "Lectura y escritura",
-        "readModifySheets": "Tus aplicaciones de ToolJet pueden leer, modificar y más en tus hojas de Google Sheets.",
+        "enableReadAndWrite": "Si deseas que ToolSmart pueda modificar tus hojas de Google Sheet, asegurate de seleccionar permisos de lectura y escritura.",
+        "readDataFromSheets": "Tus aplicaciones de ToolSmart sólo pueden leer datos de tus hojas de Google Sheets.",
+        "readWrite": "Leer y escribir",
+        "readModifySheets": "Tus aplicaciones de ToolSmart pueden leer, modificar y más en tus hojas de Google Sheets.",
         "toGoogleSheets": "a Google Sheets"
     },
+    "zendesk": {
+        "enableReadAndWrite": "Si deseas que ToolSmart pueda modificar tus recursos de Zendesk, asegurate de seleccionar permisos de lectura y escritura",
+        "readDataFromResources": "Tus aplicaciones de ToolSmart sólo pueden leer datos de recursos",
+        "readModifySheets": "Tus aplicaciones de ToolSmart pueden leer datos de recursos, modificar recursos, y más."
+    },
     "profile": {
-        "profileSettings": "Configuración de Perfil"
+        "profileSettings": "Configuración de perfil"
     },
     "verificationSuccessPage": {
-        "workEmail": "Correo electrónico",
+        "workEmail": "Email",
         "enterFullName": "Ingresa tu nombre completo",
-        "enterNewPassword": "Ingresa tu nueva contraseña",
+        "enterNewPassword": "Ingresa nueva contraseña",
         "name": "Nombre",
         "password": "Contraseña",
         "acceptInvite": "Aceptar invitación",
-        "successfullyVerifiedEmail": "Correo verificado con éxito",
-        "setupTooljet": "Configurar ToolJet"
+        "successfullyVerifiedEmail": "Email verificado exitosamente",
+        "setupTooljet": "Configurar ToolSmart"
     },
     "loginSignupPage": {
-        "forgotPassword": "Olvidaste la contraseña",
-        "emailAddress": "Dirección de correo electrónico",
-        "enterEmail": "Ingrese correo electrónico",
-        "dontHaveAccount": "¿Aun no tienes una cuenta?",
-        "enterBusinessEmail": "Ingresa tu correo electrónico empresarial",
+        "forgotPassword": "Olvidé mi contraseña",
+        "emailAddress": "Dirección de email",
+        "enterEmail": "Ingresa email",
+        "dontHaveAccount": "¿No tienes cuenta aún?",
+        "enterBusinessEmail": "Ingresa tu email de trabajo",
         "alreadyHaveAnAccount": "¿Ya tienes una cuenta?",
-        "resetPassword": "Reiniciar contraseña",
+        "resetPassword": "Restablecer contraseña",
         "signIn": "Iniciar sesión",
         "signUp": "Registrarse",
         "createToolJetAccount": "Crea una cuenta",
         "password": "Contraseña",
-        "showPassword": "Mostrar contraseña",
+        "showPassword": "mostrar contraseña",
         "loginTo": "Iniciar sesión",
         "yourAccount": "tu cuenta",
-        "noLoginMethodsEnabled": "No hay metodos de inicio de sesión activados para este espacio de trabajo",
-        "emailConfirmLink": "Por favor revisa tu correo para el link de confirmación",
+        "noLoginMethodsEnabled": "No hay métodos de inicio de sesión habilitados para este espacio de trabajo",
+        "emailConfirmLink": "Por favor revisa tu email para el enlace de confirmación",
         "newPassword": "Nueva contraseña",
-        "passwordConfirmation": "Confirmar contraseña",
-        "newToTooljet": "¿Nuevo en ToolJet?",
+        "passwordConfirmation": "Confirmación de contraseña",
+        "newToTooljet": "¿Nuevo en ToolSmart?",
         "newToWorkspace": "¿Nuevo en este espacio de trabajo?",
-        "enterWorkEmail": "Ingresa tu correo electrónico",
-        "enterPassword": "Ingresa tu contraseña",
-        "forgot": "¿Lo olvidaste?",
-        "workEmail": "Correo electrónico",
-        "joinTooljet": "Unete a ToolJet",
-        "getStartedForFree": "Empieza gratis",
-        "passwordCharacter": "La contraseña debe contener al menos 5 carácteres",
+        "enterWorkEmail": "Ingresa tu email de trabajo",
+        "enterPassword": "Ingresa contraseña",
+        "forgot": "¿Olvidaste?",
+        "workEmail": "Email",
+        "joinTooljet": "Unete a ToolSmart",
+        "getStartedForFree": "Comienza gratis",
+        "passwordCharacter": "La contraseña debe tener al menos 5 caracteres",
         "enterFullName": "Ingresa tu nombre completo",
-        "enterNewPassword": "Ingresa tu nueva contraseña"
+        "enterNewPassword": "Ingresa nueva contraseña"
     },
     "editor": {
         "preview": "Prevista",

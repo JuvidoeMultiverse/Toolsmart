@@ -44,7 +44,7 @@ function OnboardingTrialPage(props) {
       paid: true,
     },
     {
-      title: 'Unlimited ToolJet tables and rows',
+      title: 'Unlimited ToolSmart tables and rows',
       free: false,
       paid: true,
     },

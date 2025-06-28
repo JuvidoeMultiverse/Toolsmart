@@ -4,7 +4,7 @@ import { authHeader } from '@/_helpers';
 
 // Define constants locally to avoid import issues
 const DEFAULT_WHITE_LABEL_SETTINGS = {
-  WHITE_LABEL_TEXT: 'ToolJet',
+  WHITE_LABEL_TEXT: 'ToolSmart',
   WHITE_LABEL_LOGO: null,
   WHITE_LABEL_FAVICON: null,
 };

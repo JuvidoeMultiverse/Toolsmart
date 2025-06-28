@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import _, { isEmpty } from 'lodash';
-import LogoIcon from '@assets/images/rocket.svg';
+import LogoIcon from '@assets/images/favicon-32x32.png';
 import { Link } from 'react-router-dom';
 import { DarkModeToggle } from '@/_components/DarkModeToggle';
 import Header from './Header';

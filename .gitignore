@@ -6,7 +6,8 @@
 
 # Ignore bundler config.
 /.bundle
-
+.en.envv
+.env
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
@@ -28,8 +29,7 @@
 .DS_Store
 /frontend/.firebaserc
 /frontend/.firebase
-/.env
-/.env.test
+
 /docs/.firebase
 /docs/.firebaserc
 /node_modules

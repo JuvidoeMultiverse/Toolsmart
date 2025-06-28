@@ -34,7 +34,7 @@ const plugins = [
   }),
   new HtmlWebpackPlugin({
     template: './src/index.ejs',
-    favicon: './assets/images/logo.svg',
+    favicon: './assets/images/968c8bf7-51f3-4f8f-9677-612ee3cb9d3b.png',
     hash: environment === 'production',
   }),
   new CompressionPlugin({
@@ -70,7 +70,7 @@ if (process.env.APM_VENDOR === 'sentry') {
       project: process.env.SENTRY_PROJECT,
       release: {
         // The version should be same as what its when we are sending error events
-        name: `tooljet-${version}`,
+        name: `toolsmart-${version}`,
       },
     })
   );
@@ -125,6 +125,10 @@ module.exports = {
   devtool: environment === 'development' ? 'eval-source-map' : 'hidden-source-map',
   module: {
     rules: [
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: ['file-loader'],
+      },
       {
         test: /\.ttf$/,
         use: ['file-loader'],

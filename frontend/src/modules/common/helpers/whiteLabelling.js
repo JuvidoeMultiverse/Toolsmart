@@ -2,7 +2,7 @@ import { useWhiteLabellingStore } from '@/_stores/whiteLabellingStore';
 import { decodeEntities } from '@/_helpers/utils';
 
 export const defaultWhiteLabellingSettings = {
-  WHITE_LABEL_TEXT: 'ToolJet',
+  WHITE_LABEL_TEXT: 'ToolSmart',
   WHITE_LABEL_LOGO: null,
   WHITE_LABEL_FAVICON: null,
 };

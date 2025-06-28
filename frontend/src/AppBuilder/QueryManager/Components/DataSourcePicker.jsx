@@ -81,13 +81,14 @@ function DataSourcePicker({ darkMode }) {
         Connect to a Data source
       </h4>
       <p className="mb-3" style={{ textAlign: 'center' }}>
-        Select a Data source to start creating a new query. To know more about queries in ToolJet, you can read our
+        Select a Data source to start creating a new query. To know more about queries in ToolSmart, you can read our
         &nbsp;
         <a
           data-cy="querymanager-doc-link"
           target="_blank"
           href="https://docs.tooljet.com/docs/app-builder/query-panel"
           rel="noreferrer"
+          className="text-decoration-none"
         >
           documentation
         </a>
@@ -134,7 +135,7 @@ function DataSourcePicker({ darkMode }) {
                 data-cy={`${sampleDataSource.kind.toLowerCase().replace(/\s+/g, '-')}-sample-db-add-query-card`}
               >
                 <DataSourceIcon source={sampleDataSource} height={14} />{' '}
-                {sampleDataSource.kind == 'postgresql' ? 'PostgreSQL' : 'ToolJetDB'}
+                {sampleDataSource.kind == 'postgresql' ? 'PostgreSQL' : 'ToolSmartDB'}
               </ButtonSolid>
             </div>
 

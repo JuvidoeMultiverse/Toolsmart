@@ -13,7 +13,7 @@ import { FEATURE_KEY } from './constants';
 import { AbilityDecorator as Ability, AppAbility } from '@modules/app/decorators/ability.decorator';
 import { AppDecorator as App } from '@modules/app/decorators/app.decorator';
 import { App as AppEntity } from '@entities/app.entity';
-import { AppAuthGuard } from '@ee/apps/guards/app-auth.guard';
+// import { AppAuthGuard } from '@ee/apps/guards/app-auth.guard'; TODO: Add this guard to the app
 import { ValidSlugGuard } from './guards/valid-slug.guard';
 import { ValidAppGuard } from './guards/valid-app.guard';
 import { IAppsController } from './interfaces/IController';
@@ -45,7 +45,7 @@ export class AppsController implements IAppsController {
   }
 
   @InitFeature(FEATURE_KEY.VALIDATE_RELEASED_APP_ACCESS)
-  @UseGuards(AppAuthGuard, FeatureAbilityGuard)
+  @UseGuards(FeatureAbilityGuard) // TODO: Add this guard to the app
   @Get('validate-released-app-access/:slug')
   validateReleasedAppAccess(@Ability() ability: AppAbility, @App() app: AppEntity) {
     return this.appsService.validateReleasedApp(ability, app);
@@ -105,7 +105,7 @@ export class AppsController implements IAppsController {
 
   @InitFeature(FEATURE_KEY.GET_BY_SLUG)
   // This guard will allow access for unauthenticated user if the app is public
-  @UseGuards(AppAuthGuard, ValidAppGuard, FeatureAbilityGuard)
+  @UseGuards(ValidAppGuard, FeatureAbilityGuard) // TODO: Add this guard to the app
   @Get('slugs/:slug')
   appFromSlug(@User() user, @App() app: AppEntity) {
     return this.appsService.getBySlug(app, user);
