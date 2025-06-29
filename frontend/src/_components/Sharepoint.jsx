@@ -20,7 +20,7 @@ const Sharepoint = ({
   const { t } = useTranslation();
 
   const hostUrl = window.public_config?.TOOLJET_HOST;
-  const subPathUrl = window.public_config?.SUB_PATH;
+  const subPathUrl = '/';
   const fullUrl = `${hostUrl}${subPathUrl ? subPathUrl : '/'}oauth2/authorize`;
   const redirectUri = fullUrl;
 

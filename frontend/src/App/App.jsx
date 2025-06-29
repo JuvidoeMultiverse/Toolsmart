@@ -53,7 +53,7 @@ const AppWrapper = (props) => {
   );
   return (
     <Suspense fallback={null}>
-      <BrowserRouter basename={window.public_config?.SUB_PATH || '/'}>
+      <BrowserRouter basename={'/' || '/'}>
         <AppWithRouter props={props} isAppDarkMode={isAppDarkMode} updateIsTJDarkMode={updateIsTJDarkMode} />
       </BrowserRouter>
     </Suspense>

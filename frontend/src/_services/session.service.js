@@ -29,7 +29,7 @@ function logout(avoidRedirection = false, organizationId = null) {
   const workspaceId = getWorkspaceId() || organizationId;
 
   const redirectToLoginPage = () => {
-    const loginPath = (window.public_config?.SUB_PATH || '/') + 'login' + `${workspaceId ? `/${workspaceId}` : ''}`;
+    const loginPath = ('/' || '/') + 'login' + `${workspaceId ? `/${workspaceId}` : ''}`;
     if (avoidRedirection) {
       window.location.href = loginPath;
     } else {

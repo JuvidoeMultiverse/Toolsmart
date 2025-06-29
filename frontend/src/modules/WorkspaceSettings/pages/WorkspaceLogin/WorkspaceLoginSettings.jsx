@@ -476,11 +476,10 @@ class OrganizationLogin extends React.Component {
                   </div>
                 )}
                 <span
-                  className={`tj-text-xsm ${
-                    window.public_config?.ENABLE_WORKSPACE_LOGIN_CONFIGURATION === 'true'
+                  className={`tj-text-xsm ${window.public_config?.ENABLE_WORKSPACE_LOGIN_CONFIGURATION === 'true'
                       ? 'enabled-tag'
                       : 'inherited-tag'
-                  }`}
+                    }`}
                   data-cy="workspace-login-status-label"
                 >
                   {window.public_config?.ENABLE_WORKSPACE_LOGIN_CONFIGURATION === 'true'
@@ -535,12 +534,10 @@ class OrganizationLogin extends React.Component {
                           style={{ backgroundColor: '#F1F3F5', color: '#889096' }}
                         >
                           <p id="login-url" data-cy="workspace-login-url">
-                            {`${window.public_config?.TOOLJET_HOST}${
-                              window.public_config?.SUB_PATH ? window.public_config?.SUB_PATH : '/'
-                            }login/${
-                              authenticationService?.currentSessionValue?.current_organization_slug ||
+                            {`${window.public_config?.TOOLJET_HOST}${'/' ? '/' : '/'
+                              }login/${authenticationService?.currentSessionValue?.current_organization_slug ||
                               authenticationService?.currentSessionValue?.current_organization_id
-                            }`}
+                              }`}
                           </p>
                           <SolidIcon name="copy" width="16" onClick={() => this.copyFunction('login-url')} />
                         </div>

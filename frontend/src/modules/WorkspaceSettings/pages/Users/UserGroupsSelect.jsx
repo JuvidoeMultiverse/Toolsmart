@@ -19,8 +19,7 @@ export function UserGroupsSelect(props) {
             onClick={() =>
               window.open(
                 urlJoin(
-                  `${window.public_config?.TOOLJET_HOST}${
-                    window.public_config?.SUB_PATH ? window.public_config?.SUB_PATH : ''
+                  `${window.public_config?.TOOLJET_HOST}${'/' ? '/' : ''
                   }`,
                   `/${workspaceId}/workspace-settings/groups`
                 )

@@ -19,7 +19,7 @@ appService
 
     window.public_config = config;
     const language = config.LANGUAGE || 'en';
-    const path = config?.SUB_PATH || '/';
+    const path = '/';
     i18n
       .use(Backend)
       .use(initReactI18next)

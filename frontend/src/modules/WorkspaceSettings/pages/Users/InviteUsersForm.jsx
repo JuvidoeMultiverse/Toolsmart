@@ -250,7 +250,7 @@ function InviteUsersForm({
     if (activeTab !== tabIndex) {
       return darkMode ? '#545B64' : '#687076'; // returning fill color for inactive tab wrt theme
     }
-    
+
     return darkMode ? '#FAFCFF' : '#313739'; // returning fill color for active tab wrt theme
   };
 
@@ -425,8 +425,7 @@ function InviteUsersForm({
                       Files in any other format may not be recognized.{' '}
                     </p>
                     <ButtonSolid
-                      href={`${window.public_config?.TOOLJET_HOST}${
-                        window.public_config?.SUB_PATH ? window.public_config?.SUB_PATH : '/'
+                      href={`${window.public_config?.TOOLJET_HOST}${'/' ? '/' : '/'
                         }assets/csv/sample_upload.csv`}
                       download="sample_upload.csv"
                       variant="tertiary"
